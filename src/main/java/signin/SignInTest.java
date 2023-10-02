@@ -13,7 +13,7 @@ public class SignInTest {
         Thread.sleep(2000);
         driver.manage().window().maximize();
         driver.findElement (By.xpath("//a[contains(text(),'Sign in')]")).click();
-        driver.findElement(By.id("email")).sendKeys("sharan1beta@gmil.com");
+        driver.findElement(By.id("email")).sendKeys("sharan1beta@gmail.com");
         Thread.sleep(2000);
 
         driver.findElement(By.name("passwd")).sendKeys("act12345");
